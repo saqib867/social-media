@@ -1,0 +1,138 @@
+.topbarContainer{
+     width: 100%;
+     height: 60px;
+     background-color:rgb(245, 240, 243);
+     border-bottom: 1px solid gainsboro;
+     display: flex;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+}
+.topbarLeft{
+     flex: 3;
+     display: flex;
+     align-items: center;
+}
+.logo{
+     font-size: 23px;
+     color:rgb(56, 56, 197);
+     margin-left: 8px;
+     cursor: pointer;
+     font-weight: 800;
+     text-decoration: none;
+     
+}
+.topbarleft__logo{
+     background-color: rgb(243, 241, 241);
+     border-radius: 50%;
+     width: 35px;
+     height: 35px;
+     margin: 5px;
+     box-shadow: 0px 0px 10px -4px rgb(0,0,0,0.75);
+     
+}
+.topbarCenter{
+     flex: 5;
+     
+}
+
+
+.topbarLinks{
+     display: flex;
+     justify-content: space-evenly;
+     
+}
+.topbarLink{
+     
+     font-size: 25px;
+     cursor: pointer;
+     color: rgb(70, 70, 180);
+     text-decoration: none;    
+}
+
+
+.topbarLink:hover{
+     transform: scale(1.13);
+     color: rgb(22, 22, 241);
+}
+.topbarRight{
+     flex: 4;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     color: white;
+}
+.topbarIcons{
+     display: flex;
+     cursor: pointer;
+}
+.topbarIconsItem{
+     font-size: 25px;
+     margin-left: 45px;
+     position: relative;
+     color: rgb(66, 66, 175);
+}
+.topbarIconsItem>.topbarIconPpt{
+     color: rgb(71, 71, 156);
+}
+.topbarIconBadge{
+     height: 15px;
+     width: 15px;
+     font-size: 12px;
+     background-color: red;
+     border-radius: 50%;
+     border: 1px solid rgb(219, 219, 219);
+     color: white;
+     position: absolute;
+     top: -1px;
+     right: -3px; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.topbarImg{
+     font-size: 25px;
+     position: relative;
+}
+
+.topImg{
+     top: -15px;
+     right: -10;
+     position:absolute;
+     height: 35px;
+     width: 35px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.searchbar{
+     position: relative;
+     width: 80%;
+     height: 35px;
+     background-color: rgb(226, 222, 222);
+     border-radius: 30px;
+     display: flex;
+     align-items: center;
+}
+.searchIcon{
+     right: 10px;
+     position:absolute;
+     margin-left: 10px;
+     font-size: 18px;
+     color: blue;
+     cursor: pointer;
+}
+.searchInput{
+     border: none;
+     margin-left: 5px;
+     width: 80%;
+     height: 20px;
+     background-color: rgb(226, 222, 222);
+}
+.searchInput:focus {
+      outline: none;
+}
+.own-profile{
+     color: white;
+}

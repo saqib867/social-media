@@ -1,0 +1,95 @@
+
+.share{
+     width: 100%;
+     border: 10px;
+     z-index: 100;
+     border-radius: 15px;
+     background-color: rgba(255, 255, 255, 0.63);
+     box-shadow: 0px 0px 10px -6px rgb(0,0,0,0.75);
+}
+.shareWrapper{
+     margin-top: 10px;
+}
+.shareTop{
+     display: flex;
+     align-items: center;
+     height: 50px;
+     
+     
+}
+.shareProfilePicture{
+     height: 40px;
+     width: 40px;
+     margin-top: 10px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+.shareInput{
+     margin-left: 10px;
+     margin-top: 10px;
+     border: none;
+     font-size: 17px;
+     width: 80%;
+}
+.shareInput:focus{
+     outline: none;
+}
+.shareHr{
+     margin: 20px;
+}
+.shareOptions{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.shareOption{
+     margin-left: 10px;
+     display: flex;
+     
+}
+.shareOptionText{
+   
+   font-weight: 500;
+   font-size: 16px;
+   margin-left: 5px;
+   
+}
+.bi-camera-video{
+   color: tomato;
+}
+.bi-tag{
+     color: rgb(38, 38, 247);
+}
+.bi-geo-alt{
+     color: green;
+}
+.bi-emoji-smile{
+     color: goldenrod
+}
+#shareButton{
+     
+     font-size: 15px;
+     margin: 5px 0px;
+}
+.shareImgContainer{
+     padding: 0 20px 10px 20px;
+     position: relative;
+}
+.shareImg{
+    
+     width: 340px;
+     height: 340px;
+     margin-left: 20%;
+     object-fit: cover;
+}
+.cancelImg{
+     
+     position: absolute;
+     top: 0;
+     font-size: 20px;
+     right: 30px;
+     border-radius: 10px;
+     cursor: pointer;
+     color: rgb(252, 45, 45);
+  
+}

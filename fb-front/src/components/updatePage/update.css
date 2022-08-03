@@ -1,0 +1,47 @@
+.update{
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(233, 231, 231);
+}
+.update__container{
+
+     display: flex;
+     flex-direction: column;
+     height: 450px;
+     position: relative;
+     padding: 20px;
+     border-radius: 15px;
+     background-color: white;
+     box-shadow: 0px 0px 10px -5px rgb(0,0,0,0.75);
+}
+
+.update_input{
+     width: 400px;
+     height: 45px;
+     border-radius: 5px;
+     border: 1px solid black;
+     outline: none;
+     margin-top: 10px;
+     font: 15px;
+     
+}
+
+.update_info{
+     font-size: 20px;
+     font-weight: 500;
+     margin-top: 10px;
+}
+
+.update_button{
+    position: absolute;
+    top: 90%;
+    right: 20px;
+}
+.cancle_button{
+     position: absolute;
+     top: 90%;
+     
+ }

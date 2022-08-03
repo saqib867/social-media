@@ -1,0 +1,29 @@
+.feed{
+     
+     flex: 5.5;
+     margin-left: 5px;
+     overflow-y: scroll;
+     height: 89vh;
+     
+}
+.feed::-webkit-scrollbar {
+     
+     width: 10px;
+     overflow-y: visible;
+     height: 100%;    
+ }
+ .feed::-webkit-scrollbar-track {
+     border-radius: 3px;
+     background-color: rgba(214, 208, 208, 0.5);
+ }
+ .feed::-webkit-scrollbar-thumb {
+     
+     height: 3px;
+     width: 1px;
+     border-radius: 4px;
+     background-color: rgba(131, 130, 130, 0.5);
+ }
+.feedWrapper{
+     
+     padding:10px 10px ;
+}

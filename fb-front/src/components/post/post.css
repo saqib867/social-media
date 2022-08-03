@@ -1,0 +1,207 @@
+.post{
+     margin-top: 10px;
+     width: 100%;
+     height: fit-content;
+     border: 10px;
+     z-index: 100;
+     height: 100%;
+     border-radius: 15px;
+     background-color: rgba(255, 255, 255, 0.63);
+     box-shadow: 0px 0px 10px -5px rgb(0,0,0,0.75);
+     margin-left: -5px;
+}
+.postWrapper{
+     margin: 0 10px;
+}
+.postTop{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-right: 10px;
+}
+.postTopLeft{
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+
+}
+.postProfileImg{
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+.postAvt{
+     font-size: 25px;
+}
+.postIfAvt{
+     float: left;
+     align-items: center;
+
+}
+.postUserName{
+     margin-left: 5px;
+     font-weight: 600;
+     text-decoration: none;
+}
+.postUserLink{
+     text-decoration:none;
+     color: rgb(19, 19, 19);
+}
+.postDate{
+     margin-left: 20px;
+     font-size: 14px;
+     color: gray;
+}
+.three-dots{
+     font-size: 25px;
+}
+.postCenter{
+     margin: 20px 0;
+}
+.postImage{
+     width: 100%;
+     max-height: 300px;
+     object-fit: contain;
+     border: 1px solid rgb(206, 203, 203);
+}
+.postBottom{
+     position: relative;
+     display: flex;
+     align-items: center;
+     height: 100%;
+}
+
+.postBottomLeft{
+     position: absolute;
+     left: 0px;
+     bottom: 5px;
+     top: -5px;
+     display: flex;
+     font-size: 20px;
+     
+}
+.postBottomRight{
+     margin-left: 80%;
+     position: relative;
+}
+.postBottomRight_comment{
+     font-size: 17px;
+     cursor: pointer;
+     bottom: 15px;
+     display: flex;
+     align-items: center;
+     margin-left: -15px;
+     margin-bottom: 10px;
+}
+.postBottomRight_commentIcon{
+     margin-top: 5px;
+     font-size: 17px;
+     
+}
+.postBottomRight_length{
+     font-size: 16px;
+     margin: 3px;
+}
+.postBottomRight_text{
+     font-weight: 700;
+     margin: 5px;
+}
+.comment_input{
+     position: relative;
+     color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     width: 60vh;
+     margin-left: -75%;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     background-color: rgb(231, 230, 230);
+     border: 1px solid rgb(226, 225, 225);
+}
+.comment_inputText{
+    border-radius: 10px;
+    margin: 0px;
+    height: 39px;
+    width: 55vh;
+    border: none;
+    background-color: rgb(231, 230, 230);
+}
+.comment_inputText:focus{
+     outline: none;
+}
+.comment-input__button{
+     position: absolute;
+     color: rgba(73, 73, 238, 0.747);
+     font-size: 20px;
+     right: 5px;
+     bottom: 2px;
+     transform: rotate(45deg);
+     cursor: pointer;
+}
+.comment-input__button:hover{
+     color: blue;
+}
+.postBottom__comment{
+     color: black;
+     overflow-y: scroll;
+     height: 150px;
+     
+}
+.postBottom__comment::-webkit-scrollbar {
+     
+     width: 7px;
+     overflow-y: visible;
+     height: 100%;    
+     transform: scale(1.07);
+ }
+ .postBottom__comment::-webkit-scrollbar-track {
+     border-radius: 4px;
+     transform: scale(1.07);
+     background-color: rgba(185, 183, 183, 0.5);
+     cursor: pointer;
+ }
+ .postBottom__comment::-webkit-scrollbar-thumb {
+     
+     height: 5px;
+     width: 5px;
+     border-radius: 4px;
+     background-color: rgba(131, 130, 130, 0.5);
+     transform: scale(1.07);
+ }
+.postBottom_comment{
+     overflow-y: hidden;
+     
+}
+.commentBody_items{
+     background-color: rgb(250, 250, 250);
+     margin-top: 8px;
+     margin-right: 5px;
+     border-radius: 5px;
+     align-items: center;
+     justify-content: center;
+}
+
+.commentBody_username{
+     width: fit-content;
+     border-radius: 5px;
+     font-size: 15px;
+     margin-left: 5px;
+     font-weight: 700;
+     
+     
+}
+.commentBody_text{
+     
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 8%;
+     font-size: 16px;
+     border-radius: 5px;
+     
+}
+
+
+

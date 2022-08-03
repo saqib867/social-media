@@ -1,0 +1,44 @@
+.suggestion{
+     display: flex;
+     background-color: rgb(255, 253, 253);
+     
+     
+}
+.suggestion_container{
+     flex: 5.5; 
+     box-shadow: 0px 0px 10px -5px rgb(0,0,0,0.75);  
+     margin-top: 5px;
+}
+.suggestion_box{
+     display: flex;
+     align-items: center;
+     position: relative;
+     background-color: rgb(240, 240, 229);
+     box-shadow: 0px 0px 10px -3px rgb(0,0,0,0.75);  
+     height: 120px;
+     width: 95%;
+     margin-top: 15px;
+     margin-left: 15px;
+}
+.suggestion_box:hover{
+   transform: scale(1.01);
+}
+.suggestion_box_button{
+     position: absolute;
+     right: 5px;
+}
+.suggestion_box_img{
+     height: 60px;
+     width: 60px;
+     margin-left: 10px;
+     object-fit: cover;
+     border-radius: 50%;
+}
+.suggestion_box_name{
+     margin-left: 15px;
+}
+.suggestion_header_suggest{
+     margin-left: 30%;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}

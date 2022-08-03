@@ -1,0 +1,106 @@
+.profile{
+     display: flex;
+}
+.profileRight{
+     flex: 9;
+}
+.profileRightBottom{
+     display: flex;
+}
+.profileCoverImg{
+     width: 100%;
+     height: 250px;
+     object-fit: fill;
+}
+.profileUserImg{
+     height: 150px;
+     width: 150px;
+     position: absolute;
+     border-radius: 50%;
+     object-fit: cover;
+     left: 0;
+     right:0;
+     top: 150px;
+     margin-left: 42%;
+     border:3px solid white
+}
+.personAvt{
+     font-size: 150px;
+     position: absolute;
+     color: rgb(80, 80, 80);
+     object-fit: cover;
+     left: 0;
+     right:0;
+     top: 130px;
+     margin-left: 42%;
+      
+}
+
+.profileCover{
+     height: 320px;
+     position: relative;
+     
+}
+.profileCover:hover .profileCoverUploadImage{
+     display: block;
+}
+.profileCover:hover .profileSelectCoverImage{
+     display: block;
+}
+.profileChangeButton{
+     margin-top: 5px;
+     left: 30%;
+     position: absolute;
+     cursor: pointer;
+     background-color: rgb(71, 157, 255);
+     border-radius: 8px;
+     font-weight: bold;
+     
+}
+.profileUpdateButton{
+      margin-top: 5px;
+      right: 30%;
+      position: absolute;
+      cursor: pointer;
+      background-color: rgb(71, 157, 255);
+      border-radius: 8px;
+      
+      font-weight: bold;
+}
+.profileCoverUploadImage{
+     top: 0;
+     margin-top: 40px;
+     right: 10px;
+     position: absolute;
+     cursor: pointer;
+     background-color: rgba(90, 145, 247, 0.4);
+     border-radius: 5px;
+     font-weight: 500;
+     border: 1px solid rgba(0, 0, 0,0.4);
+     display: none;
+     
+}
+.profileSelectCoverImage{
+     top: 0;
+     margin-top: 40px;
+     position: absolute;
+     cursor: pointer;
+     background-color: rgba(90, 145, 247, 0.4);
+     border-radius: 5px;
+     font-weight: 500;
+     border: 1px solid rgba(0, 0, 0,0.4);
+     display: none;
+}
+.profileInfo{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.profileInfoName{
+     font-size: 24px;
+     font-weight: 500;
+}
+.profileRightBottom{
+     display: flex;
+}
